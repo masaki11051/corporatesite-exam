@@ -347,7 +347,7 @@ body {
 }
 
 
-/*---------------------footer--------------------- */
+/*---------------------media-------------------- */
 @media screen and (max-width: 768px) {
 .container{
   width: 80%;
@@ -443,5 +443,10 @@ body {
 
   .footer__nav-list li+li {
 	border-left:1px solid black;
+}
+}
+@media screen and (min-width: 1000px) {
+.container{
+  width: 95%;
 }
 }

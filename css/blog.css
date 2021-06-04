@@ -301,3 +301,9 @@ body {
   }
 }
 }
+
+@media screen and (min-width: 1000px) {
+.container{
+  width: 95%;
+}
+}
